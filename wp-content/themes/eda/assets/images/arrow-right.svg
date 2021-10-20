@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 54" height="45" width="45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-size: 45px;
+        font-family: MessinaSansMono-Book, Messina Sans Mono;
+      }
+    </style>
+  </defs>
+  <text id="_" data-name="↑" class="cls-1" transform="translate(3)"><tspan x="-2.175" y="43">→</tspan></text>
+</svg>
