@@ -7833,43 +7833,21 @@ picture .cocoen > div {
 .page-section--main {
   overflow: hidden; }
 
-.logo-letter {
+.logo {
   background: no-repeat transparent 0 0;
   background-size: contain;
-  height: 70px;
+  height: auto;
   position: fixed;
-  width: 70px;
+  left: calc(50vw - 100px);
+  width: 200px;
   z-index: 20; }
   @media (max-width: 992px) {
     .logo-letter {
-      height: 40px;
+      height: auto;
       width: 40px; } }
 
-.logo-e {
-  background-image: url("../images/logo-e.svg");
-  background-position: 0 0;
-  top: 40px; }
-  @media (max-width: 992px) {
-    .logo-e {
-      top: 10px; } }
 
-.logo-d {
-  background-image: url("../images/logo-d.svg");
-  background-position: calc(100% - 8px) 0;
-  top: 40px; }
-  @media (max-width: 992px) {
-    .logo-d {
-      background-position: 50% 50%;
-      top: 10px; } }
 
-.logo-a {
-  background-image: url("../images/logo-a.svg");
-  background-position: calc(100% - 8px) 0;
-  bottom: 40px; }
-  @media (max-width: 992px) {
-    .logo-a {
-      background-position: 50% 50%;
-      bottom: 10px; } }
 
 .page-template-page-home .site-header__primary-nav .menu .menu-item-home {
   pointer-events: none; }
@@ -7882,15 +7860,9 @@ picture .cocoen > div {
   margin-left: 0;
   margin-right: 148px; }
 
-.page-template-page-home .logo-e {
-  background-image: url("../images/logo-e-white.svg");
+.page-template-page-home .logo {
+  background-image: url("/assets/logo_white.svg");
   left: 37px; }
-
-.page-template-page-home .logo-d {
-  background-image: url("../images/logo-d-white.svg"); }
-
-.page-template-page-home .logo-a {
-  background-image: url("../images/logo-a-white.svg"); }
 
 .page-template-page-home .logo-d,
 .page-template-page-home .logo-a {
